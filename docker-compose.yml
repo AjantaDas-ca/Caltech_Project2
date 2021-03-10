@@ -1,0 +1,9 @@
+version: '2'
+services: 
+  
+    build: . 
+    ports: 
+      - "8080:4200"
+    volumes: 
+      - "/user/src/app"
+      - ".:/app"
